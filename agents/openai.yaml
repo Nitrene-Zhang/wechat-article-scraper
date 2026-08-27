@@ -1,0 +1,7 @@
+interface:
+  display_name: "微信公众号网页爬取"
+  short_description: "提取微信公众号正文并导出可编辑文字文档"
+  default_prompt: "使用 $wechat-article-scraper 提取当前微信公众号网页的完整正文，并导出为可编辑文字文档。"
+
+policy:
+  allow_implicit_invocation: true
